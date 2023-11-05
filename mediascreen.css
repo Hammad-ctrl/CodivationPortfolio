@@ -1,0 +1,102 @@
+@media screen and (max-width:750px) {
+    .bottom-container{
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(auto,1fr);
+    }
+    .ham{
+        display: inline-block;
+        cursor: pointer;
+    }
+    .navbar , header{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        display: block;
+        z-index: 1000;
+    }
+    .button-mode {
+        margin-top: 52px;
+        margin-left: 42px;
+        display: flex;
+        align-items: center;
+        bottom: 100px;
+        gap: 10px;
+    }
+    .hero-left-div{
+        display: none;
+       }
+    .header,nav{
+        gap: 66px;
+    }
+    .navbar{
+        gap: 33px;
+        padding: 0 43px;
+    }
+    .header{
+        align-items: flex-start;
+        padding: 13px 6px;
+        position: relative;
+        overflow: hidden;
+    }
+    .ham{
+        padding: 13px 6px;
+        position: absolute;
+        top: 0;
+        right: 7px;
+    }
+   
+}
+@media screen and (max-width:600px){
+    .inner-hero-section{
+        width: 94%;
+        flex-direction: column-reverse;
+    }
+    .hero-img img{
+        border-radius: 2px;
+    }
+    .bottom-container{
+        /* grid-template-rows: auto; */
+        grid-template-columns: repeat(1,1fr);
+    }
+    .milestone{
+        flex-direction: row;
+        gap: 50px;
+        /* border: 2px solid white; */
+    }
+    .contact-contaner{
+      width: 100%;
+    }
+    .reviews-container{
+        flex-direction: column;
+    }
+    .top-lower-hero h3{
+        font-size: 16px;
+
+    }
+    .top-lower-hero p{
+        font-size: 12px;
+        font-family: 'Mohave';
+    }
+    .btn{
+        font-size: 13px;
+    }
+    .milestones{
+        flex-direction: column;
+        gap: 20px;
+       }
+       .footer-container{
+        width: 100%;
+       }
+}
+@media  (min-width:750px) and (max-width:1050px ) {
+    .inner-hero-section{
+        width: 100%;
+       } 
+       
+       .bottom-container{
+        
+        grid-template-columns: repeat(2,1fr);
+    }
+      
+}
